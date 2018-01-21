@@ -28,8 +28,17 @@ VFIO GPU Configuration
 
 *KVM/QEMU*
 
-* Install Windows
+* Install Windows guest OS
+
 * Install and setup TightVNC server
+
+* Shutdown guest and edit domain XML file using `# virsh edit windows` and add
+
+  <kvm>
+     <hidden state='on'/>
+   </kvm>
+* Install Nvidia driver and reboot​
+
 
 References:
 
