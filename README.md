@@ -34,10 +34,15 @@ VFIO GPU Configuration
 
 * Shutdown guest and edit domain XML file using `# virsh edit windows` and add
 
+
+```
   <kvm>
-     <hidden state='on'/>
-   </kvm>
-* Install Nvidia driver and reboot​
+    <hidden state='on'/>
+  </kvm>
+```
+inside `<features/>` tag
+
+* Install Nvidia driver and reboot
 
 
 References:
@@ -53,3 +58,7 @@ References:
 
 
 
+
+  ```
+
+  ```
