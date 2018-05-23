@@ -6,7 +6,7 @@ VFIO GPU Configuration
 * **Motherboard**: [Asus Z170 Deluxe](https://www.asus.com/Motherboards/Z170-DELUXE/)
 * **GPU**: Asus STRIX GTX 970
 * **iGPU**: Intel HD Graphics 530
-* **OS**: Fedora 27 Workstation  Edition
+* **OS**: Fedora 28 Workstation  Edition
 * **Firmware**: UEFI
 
 
@@ -42,7 +42,7 @@ VFIO GPU Configuration
 ```
 inside `<features/>` tag
 
-* Install Nvidia driver and reboot
+* Install Nvidia driver in guest OS and reboot
 
 
 References:
