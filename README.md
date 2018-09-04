@@ -32,7 +32,8 @@ VFIO GPU Configuration
 
 * Install and setup TightVNC server
 
-* Shutdown guest and edit domain XML file using `# virsh edit windows` and add
+* Shutdown guest and edit domain XML file using `# virsh edit windows`
+* add
 
 
 ```
@@ -41,6 +42,7 @@ VFIO GPU Configuration
   </kvm>
 ```
 inside `<features/>` tag
+* remove ``<hyperv>`` tag
 
 * Install Nvidia driver in guest OS and reboot
 
